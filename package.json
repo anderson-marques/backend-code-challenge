@@ -1,0 +1,25 @@
+{
+  "name": "backend-code-challenge",
+  "version": "1.0.0",
+  "description": "Backend testing",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/index.js"
+  },
+  "keywords": [
+    "transactions","statistics"
+  ],
+  "author": "anderson.mo.carvalho@gmail.com",
+  "license": "SEE LICENSE IN LICENCE",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "mocha": "^3.5.0",
+    "should": "^11.2.1"
+  }
+}
